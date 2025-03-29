@@ -8,7 +8,7 @@ from models import User
 app = Flask(__name__)
 CORS(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@localhost/examen'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:Leo222310400@examenapi.chy4csmq0erk.us-east-2.rds.amazonaws.com/Examen'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  
 
 db.init_app(app)
